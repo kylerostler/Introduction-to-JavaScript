@@ -19,8 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
-
+const votingAge = 19;
+if(votingAge >= 18){
+  console.log(true)
+}
 
 /*
 Task 1b - Values
@@ -32,9 +34,13 @@ Do the following:
 
    HINT: no function required
 */
+let suit = 2;
+let tie = 3;
 
-
-
+if(tie > 2){
+  let suit = 5;
+  console.log(suit);
+}
 
 
 /*
@@ -47,9 +53,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
-
+let numTest = '1999';
+Number("numTest");
+console.log(numTest);
 
 /*
 Task 1d - Multiply
@@ -60,10 +66,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+    return a * b;
 }
-
+console.log(multiply(4, 5));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -76,10 +82,10 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+    return age * 7;
 }
-
+console.log(dogYears(10));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -126,6 +132,7 @@ function hungryDog(weight, age){
     return weight * 0.1;
   }
 }
+
 
 
 
